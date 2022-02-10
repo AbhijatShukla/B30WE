@@ -1,4 +1,4 @@
-Let Resume = {
+let Resume = {
   Name: "Abhijat",
   Email: "abc@gmail.com",
   Age: "XXXIII",
