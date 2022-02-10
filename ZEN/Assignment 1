@@ -1,0 +1,21 @@
+Differences in protocols:
+HTTP 1 Protocol
+• HTTP methods are Get, Put or Post.
+• Request target such as URL or port is used.
+• It uses text based commands for HTTP requests.
+• It had official recognition in 1996.
+• The new response headers allowed multiple file types e.g. plain text, HTML, images etc.
+HTTP 1.1 Protocol
+• It was released in 1997.
+• It uses text based commands for HTTP requests.
+• It added many performance enhancements e.g. caching, request pipelining, keepalive connections, transfer encoding, byte range requests etc.
+• It can load one requests at a time. Hence one request per one TCP connection is possible.
+HTTP 2 Protocol
+• It was released in Feb. 2015 by IERF.
+• It is binary and not textual.
+• It is fully multiplexed.
+• It interleaves multiple requests/responses in parallel without blocking on anyone.
+• It uses single TCP connection to deliver multiple requests/responses (in parallel).
+• It uses header compression in order to reduce overhead.
+• It allows servers to "push" responses into client caches proactively.
+• It removes unnecessary HTTP/1.x work-arounds e.g. Image sprites, domain sharing etc. • It is less error prone than HTTP/1.
