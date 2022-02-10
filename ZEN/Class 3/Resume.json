@@ -1,0 +1,15 @@
+Let Resume = {
+  Name: "Abhijat",
+  Email: "abc@gmail.com",
+  Age: "XXXIII",
+  Education: { 
+   HighSchool: "Modern School",
+   Intermediate: "Modern School",
+   Graduation: "Amity University",
+   PostGraduation: "IP University"
+},
+  Work: {
+    HCL: "8 months",
+    DSG: "8 Years"
+  }
+}
